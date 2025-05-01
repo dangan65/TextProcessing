@@ -61,6 +61,8 @@ public class SpamDetectorMain {
             // Print top spam words
             System.out.println("Top spam-indicators:");
             indicators.forEach(System.out::println);
+            
+         System.out.println("\n");
         }
     }
 }
